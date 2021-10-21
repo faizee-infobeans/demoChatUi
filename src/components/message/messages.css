@@ -1,0 +1,51 @@
+.sender {
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+  width: 75%;
+}
+
+.receiver {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.Sendercontent {
+  background-color: #808080;
+  border-end-end-radius: 15px;
+  border-top-left-radius: 15px;
+  border-end-start-radius: 15px;
+  color: white;
+}
+
+.Receivercontent {
+  background-color: #f1f5a7;
+  border-end-end-radius: 15px;
+  border-top-right-radius: 15px;
+  border-end-start-radius: 15px;
+  color: black;
+}
+
+.msg {
+  padding-top: 12px;
+  padding-left: 6px;
+  padding-right: 7px;
+}
+
+.time {
+  font-size: small;
+  margin-left: 13rem;
+}
+
+.reply {
+  margin-left: 230px;
+  padding: 5px 0px;
+  color: rgb(76, 63, 194);
+}
+
+.shareicon {
+  background-color: #d8dcf0;
+  padding: 5px;
+  border-radius: 50%;
+}

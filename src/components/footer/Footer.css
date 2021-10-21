@@ -1,0 +1,37 @@
+.footer {
+  padding: 3px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.insertbox {
+  padding: 8px 3px;
+  text-align: center;
+  background-color: rgb(203, 203, 240);
+  border-radius: 5px;
+  margin: 3px;
+}
+
+.sendbutton {
+  background-color: #cee5ff;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#send {
+  transform: rotate(45deg);
+}
+
+#edit,
+.link {
+  color: rgb(76, 63, 194) !important;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: small;
+}
+#linkicon {
+  color: rgb(76, 63, 194) !important;
+  transform: rotate(135deg);
+}

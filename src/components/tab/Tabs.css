@@ -1,0 +1,46 @@
+#myTabContent {
+  height: 310px;
+  overflow: auto;
+}
+
+.tab-panel {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#home-tab:focus,
+#profile-tab:focus,
+#contact-tab:focus {
+  border-bottom: 2px solid #2d9984 !important;
+}
+
+.nav-tabs .nav-link {
+  border: none !important;
+}
+
+.nav {
+  justify-content: space-between;
+  border: 0px !important;
+  border-bottom: 0px !important;
+  color: gray !important;
+}
+
+.nav-tabs {
+  border-bottom: 0px !important;
+}
+
+.nav-link {
+  color: rgb(105, 104, 104) !important;
+}
+
+.nav-link:focus {
+  color: #2d9984 !important;
+  text-underline-position: auto !important;
+}
+
+.nav:focus {
+  border: 0px;
+  border-bottom: 0px;
+  color: #2d9984 !important;
+}

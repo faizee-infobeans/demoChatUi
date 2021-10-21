@@ -1,5 +1,6 @@
 import React from "react";
-import { Sender, Receiver} from "./Messages.jsx";
+import "./Tabs.css";
+import { Sender, Receiver} from "../message/Messages.jsx";
 
 const Tabs = () => {
   return (
@@ -40,7 +41,7 @@ const Tabs = () => {
         </li>
       </ul>
 
-      <div class="xyz">
+      <div class="tab-panel">
         <div class="tab-content" id="myTabContent">
           <div class="tab-pane fade show active" id="home" role="tabpanel">
             <Sender />

@@ -1,9 +1,10 @@
 import React from 'react';
+import "./messages.css";
 
 export const Sender = () => {
   return (
-    <div class="name">
-    <div class="content">
+    <div class="sender">
+    <div class="Sendercontent">
     <p class="msg">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit tenetur.
       Lorem ipsum
@@ -18,8 +19,8 @@ export const Sender = () => {
 
 export const Receiver = () => {
   return (
-    <div class="name1">
-    <div class="content1">
+    <div class="receiver">
+    <div class="Receivercontent">
     <p class="msg">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit tenetur.
       Lorem ipsum

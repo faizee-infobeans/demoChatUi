@@ -1,4 +1,5 @@
 import React from "react";
+import "./Navbar.css";
 
 const Navbar = ({ hide }) => {
   return (
@@ -9,7 +10,7 @@ const Navbar = ({ hide }) => {
           <span onClick={hide} class="fa-stack fa-lg">
             <i class="fa fa-minus"></i>
           </span>
-        </div>
+        </div> 
       </nav>
   );
 };

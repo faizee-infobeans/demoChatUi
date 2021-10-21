@@ -1,0 +1,40 @@
+.input {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.input-box {
+  height: 50px;
+  overflow: hidden;
+  border: 1px dotted grey;
+  border-radius: 10px;
+  resize: none;
+}
+
+/* .inner-addon {
+  position: relative;
+}
+
+.inner-addon .abc {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.right-addon .abc {
+  right: 10px;
+  z-index: 1;
+}
+
+.right-addon input {
+  padding-right: 30px;
+  z-index: 0 !important;
+  overflow: hidden !important;
+}
+*/
+.right-addon textarea:focus {
+  caret-color: hsl(300, 85%, 46%);
+  border-color: hsl(300, 22%, 43%);
+  box-shadow: 0 0 0 0.1rem hsl(300, 22%, 43%);
+}
