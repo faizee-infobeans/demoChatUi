@@ -1,12 +1,8 @@
 import React from "react";
-import { Form } from "./Form.jsx";
-import { Tab } from "./Tab.jsx";
-import { Nav } from "./Nav.jsx";
 
-export const Hello = ({ hide }) => {
+const Navbar = ({ hide }) => {
   return (
-    <div class="ui">
-      <nav class="navbar">
+    <nav class="navbar">
         <div class="container-fluid">
           <i class="fa fa-comment fa-stack fa-lg"></i>
           <span class="navbar-text"> <b>Task ID: 123456</b> | Rupinder</span>
@@ -14,11 +10,8 @@ export const Hello = ({ hide }) => {
             <i class="fa fa-minus"></i>
           </span>
         </div>
-        
       </nav>
-      <Tab />
-      <Form />
-      <Nav />
-    </div>
   );
 };
+
+export default Navbar;

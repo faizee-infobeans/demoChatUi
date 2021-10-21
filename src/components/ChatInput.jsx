@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Form = () => {
+const ChatInput = () => {
 
   return (
     <div class="xyz">
@@ -12,3 +12,5 @@ export const Form = () => {
     </div>
   );
 };
+
+export default ChatInput;

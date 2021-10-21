@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Nav = () => {
+const Footer = () => {
   return (
    
       <div class="login">
@@ -16,3 +16,5 @@ export const Nav = () => {
    
   );
 };
+
+export default Footer;

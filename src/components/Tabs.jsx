@@ -1,8 +1,7 @@
 import React from "react";
-import { Info } from "./Info.jsx";
-import Reciver from "./Reciever"
+import { Sender, Receiver} from "./Messages.jsx";
 
-export const Tab = () => {
+const Tabs = () => {
   return (
     <div>
       <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -44,21 +43,23 @@ export const Tab = () => {
       <div class="xyz">
         <div class="tab-content" id="myTabContent">
           <div class="tab-pane fade show active" id="home" role="tabpanel">
-            <Info />
-            <Reciver />
+            <Sender />
+            <Receiver />
           </div>
           <div class="tab-pane fade" id="profile" role="tabpanel">
-            <Info />
-            <Reciver />
-            <Info />
+            <Sender />
+            <Receiver />
+            <Sender />
           </div>
           <div class="tab-pane fade" id="contact" role="tabpanel">
-            <Info />
-            <Reciver />
-            <Info />
+            <Sender />
+            <Receiver />
+            <Sender />
           </div>
         </div>
       </div>
     </div>
   );
 };
+
+export default Tabs;
