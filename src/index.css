@@ -4,7 +4,7 @@ body {
 }
 
 .ui {
-  width: 30%;
+  width: 100%;
   margin: 0 auto;
   box-shadow: 3px 5px 7px 5px #bdbaba;
 }
@@ -16,23 +16,31 @@ body {
 }
 
 .navbar {
-  background-color: hsl(300, 22%, 43%);
+  background-color: #9477a0;
   color: white;
 }
 
 .content {
   width: 75%;
-  background-color: gray;
-  border-radius: 13px;
+  background-color: #808080;
+  border-end-end-radius: 15px;
+  border-top-left-radius: 15px;
+  border-end-start-radius: 15px;
   color: white;
+  float: right;
 }
-
+.time {
+  font-size: small;
+  margin-left: 13rem;
+}
 .xyz{
   padding: 10px;
 }
 
 .msg{
-  padding: 0px 10px;
+  padding-top: 12px;
+  padding-left: 6px;
+  padding-right: 7px;
 }
 
 .inner-addon { 
@@ -62,7 +70,7 @@ pointer-events: none;
 }
 
 .login{
-  padding: 3px 20px;
+  /* padding: 3px 10px; */
   display: flex;
   justify-content: space-between;
 }
@@ -79,7 +87,7 @@ pointer-events: none;
 border: none !important;
 }  
 #home-tab:focus, #profile-tab:focus, #contact-tab:focus{
-  border-bottom: 2px solid green !important;
+  border-bottom: 2px solid #2d9984 !important;
 }
 
 /* #home-tab .active{
@@ -111,12 +119,12 @@ border: none !important;
 }
 
 .nav-link:focus{
-  color: green !important;
+  color: #2d9984 !important;
   text-underline-position: auto !important;
 }
 
 .nav:focus{
   border: 0px;
   border-bottom: 0px;
-  color: green !important;
+  color: #2d9984 !important;
 }

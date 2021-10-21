@@ -5,7 +5,7 @@ export const Tab = () => {
   return (
     <div>
       <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
+        <li class="nav-item active" role="presentation">
           <button
             class="nav-link active"
             id="home-tab"
@@ -13,7 +13,7 @@ export const Tab = () => {
             data-bs-target="#home"
             role="tab"
           >
-            <i class="fa fa-circle fa-lg fa-stack"></i> Faizee
+            <i class="fa fa-circle fa-lg fa-stack"></i> Rupinder
           </button>
         </li>
         <li class="nav-item" role="presentation">
