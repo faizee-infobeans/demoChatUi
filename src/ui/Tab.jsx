@@ -45,15 +45,16 @@ export const Tab = () => {
         <div class="tab-content" id="myTabContent">
           <div class="tab-pane fade show active" id="home" role="tabpanel">
             <Info />
-<Reciver />
+            <Reciver />
           </div>
           <div class="tab-pane fade" id="profile" role="tabpanel">
             <Info />
+            <Reciver />
             <Info />
           </div>
           <div class="tab-pane fade" id="contact" role="tabpanel">
             <Info />
-            <Info />
+            <Reciver />
             <Info />
           </div>
         </div>

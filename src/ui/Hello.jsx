@@ -14,6 +14,7 @@ export const Hello = ({ hide }) => {
             <i class="fa fa-minus"></i>
           </span>
         </div>
+        
       </nav>
       <Tab />
       <Form />

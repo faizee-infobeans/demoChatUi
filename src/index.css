@@ -4,14 +4,13 @@ body {
 }
 
 .ui {
-  width: 35%;
+  width: 32%;
   margin: 0 auto;
   box-shadow: 3px 5px 7px 5px #bdbaba;
 }
 
 #myTabContent{
-  height: 280px;
-  max-height: 250px;
+  height: 310px;
   overflow: auto;
 }
 
@@ -37,6 +36,14 @@ body {
   color: black;
   /* float: left; */
 }
+.input-box{
+  height: 50px;
+  overflow: hidden;
+  border:1px dotted grey;
+  border-radius: 10px;
+  resize: none;
+}
+
 
 .time {
   font-size: small;
@@ -67,11 +74,23 @@ body {
  padding: 5px;
  border-radius: 50%;
 }
+.sendbutton{
+  background-color: #cee5ff;
+  padding: 10px;
+  border-radius: 50%;
+ 
+ }
+ #send{
+  transform: rotate(45deg);
+  
+ }
 /* .fa{
   transform: rotate(-90deg);
 } */
 .xyz{
-  padding: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .msg{
@@ -100,14 +119,14 @@ pointer-events: none;
   overflow: hidden !important;
 }
 
-.right-addon input:focus { 
+.right-addon textarea:focus { 
   caret-color: hsl(300, 85%, 46%);
   border-color: hsl(300, 22%, 43%);
   box-shadow: 0 0 0 0.10rem hsl(300, 22%, 43%);
 }
 
 .login{
-  /* padding: 3px 10px; */
+  padding: 3px 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -134,7 +153,11 @@ border: none !important;
 #edit, .link {
   color: rgb(76, 63, 194) !important;
 }
-
+a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: small;
+}
 #linkicon{
   color: rgb(76, 63, 194) !important;
   transform: rotate(135deg);
