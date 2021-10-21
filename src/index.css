@@ -26,7 +26,16 @@ body {
   border-top-left-radius: 15px;
   border-end-start-radius: 15px;
   color: white;
-  float: right;
+  /* float: right; */
+}
+
+.content1 {
+  background-color: #f1f5a7;
+  border-end-end-radius: 15px;
+  border-top-right-radius: 15px;
+  border-end-start-radius: 15px;
+  color: black;
+  /* float: left; */
 }
 
 .time {
@@ -44,6 +53,12 @@ body {
   display: flex;
   flex-direction: column;
   margin-left: 90px;
+  width: 75%;
+}
+
+.name1 {
+  display: flex;
+  flex-direction: column;
   width: 75%;
 }
 

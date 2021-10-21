@@ -1,5 +1,6 @@
 import React from "react";
 import { Info } from "./Info.jsx";
+import Reciver from "./Reciever"
 
 export const Tab = () => {
   return (
@@ -44,6 +45,7 @@ export const Tab = () => {
         <div class="tab-content" id="myTabContent">
           <div class="tab-pane fade show active" id="home" role="tabpanel">
             <Info />
+<Reciver />
           </div>
           <div class="tab-pane fade" id="profile" role="tabpanel">
             <Info />
