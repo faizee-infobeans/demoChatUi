@@ -4,7 +4,7 @@ body {
 }
 
 .ui {
-  width: 100%;
+  width: 35%;
   margin: 0 auto;
   box-shadow: 3px 5px 7px 5px #bdbaba;
 }
@@ -21,7 +21,6 @@ body {
 }
 
 .content {
-  width: 75%;
   background-color: #808080;
   border-end-end-radius: 15px;
   border-top-left-radius: 15px;
@@ -29,10 +28,33 @@ body {
   color: white;
   float: right;
 }
+
 .time {
   font-size: small;
   margin-left: 13rem;
 }
+
+.reply{
+  margin-left: 230px;
+  padding: 5px 0px;
+  color: rgb(76, 63, 194);
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+  width: 75%;
+}
+
+.shareicon{
+ background-color: #d8dcf0;
+ padding: 5px;
+ border-radius: 50%;
+}
+/* .fa{
+  transform: rotate(-90deg);
+} */
 .xyz{
   padding: 10px;
 }

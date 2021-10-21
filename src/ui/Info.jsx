@@ -1,9 +1,8 @@
 import React from 'react';
-// import "../../client/main.css";
 
 export const Info = () => {
   return (
-    <div>
+    <div class="name">
     <div class="content">
     <p class="msg">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit tenetur.
@@ -12,7 +11,7 @@ export const Info = () => {
       <span class="time">05:42 PM</span>
     </p>
   </div>
-    <span><i class="fa fa-share"></i>Reply</span>
+    <p class="reply"><span class="shareicon"><i class="fa fa-reply"></i></span> Reply</p>
     </div>
   );
 };
