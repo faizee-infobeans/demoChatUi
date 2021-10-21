@@ -35,11 +35,17 @@
 
 .time {
   font-size: small;
-  margin-left: 13rem;
+  float: right;
 }
 
 .reply {
-  margin-left: 230px;
+  float: right;
+  padding: 5px 0px;
+  color: rgb(76, 63, 194);
+}
+
+.reply1 {
+  margin-left: 14rem;
   padding: 5px 0px;
   color: rgb(76, 63, 194);
 }

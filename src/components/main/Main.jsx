@@ -7,11 +7,17 @@ import "./Main.css";
 
 const Main = () => {
   return (
-    <div class="main">
-      <Navbar />
-      <Tabs />
-      <ChatInput />
-      <Footer />
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col"></div>
+        <div class="col main">
+          <Navbar />
+          <Tabs />
+          <ChatInput />
+          <Footer />
+        </div>
+        <div className="col"></div>
+      </div>
     </div>
   );
 };
