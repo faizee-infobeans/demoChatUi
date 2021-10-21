@@ -90,6 +90,11 @@ border: none !important;
   color: rgb(76, 63, 194) !important;
 }
 
+#linkicon{
+  color: rgb(76, 63, 194) !important;
+  transform: rotate(135deg);
+}
+
 .nav{ 
   justify-content: space-between;
   border: 0px !important;
