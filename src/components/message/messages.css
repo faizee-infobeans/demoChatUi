@@ -36,6 +36,7 @@
 .time {
   font-size: small;
   float: right;
+  margin-right: 10px;
 }
 
 .reply {
@@ -45,7 +46,7 @@
 }
 
 .reply1 {
-  margin-left: 14rem;
+  margin-left: 13rem;
   padding: 5px 0px;
   color: rgb(76, 63, 194);
 }

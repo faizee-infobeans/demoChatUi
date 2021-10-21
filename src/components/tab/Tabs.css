@@ -1,12 +1,12 @@
 #myTabContent {
   height: 310px;
-  overflow: auto;
+  overflow-y: auto !important;
+  overflow: hidden;
 }
 
 .tab-panel {
   padding-top: 10px;
   padding-left: 10px;
-  padding-right: 10px;
 }
 
 #home-tab:focus,
@@ -43,4 +43,20 @@
   border: 0px;
   border-bottom: 0px;
   color: #2d9984 !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
